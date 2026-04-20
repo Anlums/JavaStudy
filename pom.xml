@@ -21,6 +21,31 @@
             <artifactId>hutool-all</artifactId>
             <version>5.8.43</version>
         </dependency>
+        <!-- MySQL JDBC 驱动 -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
+        <!-- Alibaba Druid 数据库连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.20</version>
+        </dependency>
+
+<!--        <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">-->
+<!--            <property name="url" value="jdbc:mysql://localhost:3306/hotel"/>-->
+<!--            <property name="username" value="root"/>-->
+<!--            <property name="password" value="123456"/>-->
+<!--            <property name="initialSize" value="5"/>-->
+<!--            <property name="maxActive" value="20"/>-->
+<!--        </bean>-->
+
+<!--        <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
+<!--            <property name="dataSource" ref="dataSource"/>-->
+<!--        </bean>-->
 
     </dependencies>
 
